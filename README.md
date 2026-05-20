@@ -1,25 +1,39 @@
 # RoMetis SQL Server Performance Toolkit Lite
 
-A free, read-only SQL Server diagnostic toolkit for quick performance and health checks.
+Free SQL Server diagnostic toolkit for DBAs, Data Engineers and Consultants.
 
-## Included scripts
+## Features
 
-- `Scripts/CPU/Top_CPU_Queries.sql`
-- `Scripts/CPU/Expensive_Queries.sql`
-- `Scripts/Indexes/Missing_Indexes.sql`
-- `Scripts/Blocking/Active_Blocking.sql`
-- `Scripts/Storage/DatabaseGrowth.sql`
-- `Scripts/Reports/HealthSummary.sql`
+✓ Top CPU Queries  
+✓ Expensive Query Detection  
+✓ Missing Index Analysis  
+✓ Active Blocking Detection  
+✓ Database Growth Monitoring  
+✓ Health Summary Report
 
 ## Requirements
 
 - SQL Server 2016+
-- Permissions to read Dynamic Management Views:
-  - `VIEW SERVER STATE`
-  - `VIEW DATABASE STATE` where applicable
+- VIEW SERVER STATE permission
 
-## Notes
+## Included scripts
 
-All scripts are read-only and do not change database schema, data, indexes, jobs or configuration.
+Scripts/
+├── CPU
+├── Indexes
+├── Blocking
+├── Storage
+└── Reports
 
-Results from plan-cache based scripts depend on the current SQL Server plan cache.
+## Roadmap
+
+### Lite v1
+- Health checks
+- Performance diagnostics
+
+### Pro v2
+- Deadlock analysis
+- HTML reporting
+- Power BI dashboard
+- ETL monitoring
+- Historical trends
