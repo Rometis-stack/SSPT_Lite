@@ -27,13 +27,17 @@ Scripts/
 
 ## Roadmap
 
-### Lite v1
-- Health checks
-- Performance diagnostics
+v1.1
+- Unused Indexes
+- Wait Statistics
+- SQL Agent Job Review
 
-### Pro v2
-- Deadlock analysis
-- HTML reporting
+v1.2
+- Memory diagnostics
+- TempDB diagnostics
+
+Pro
 - Power BI dashboard
+- HTML reporting
+- Historical tracking
 - ETL monitoring
-- Historical trends
